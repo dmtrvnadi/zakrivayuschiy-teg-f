@@ -13,4 +13,63 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font);
+  font-variation-settings: var(--main-weight);
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  margin-block: 100px;
+  font-family: var(--accent-font);
+  background-color: #fff;
+  min-height: 327px;
+  border: 1px solid #000;
+}
+
+.page-width {
+  min-width: var(--page-width);
+}
+
+.header-title {
+  font-size: clamp(49px, 2.9vw, 65px);
+  padding-block-start: 122px;
+  margin-block-end: 20px;
+  text-align: center;
+}
+
+.main-paragraph {
+  font-size: 14px;
+  font-size: clamp(14px,0.3vw, 23px);
+  text-align: center;
+}
+
+.main__content {
+  background-color: #fff;
+}
+
+.content__subtitle {
+  font-family: var(--main-font);
+  font-weight: var(--title-weight);
+  font-size: 18px;
+}
+
+
+.botton__container {
+  display: inline;
+}
+
+.card__icon-button {
+  background-color: transparent;
+  border: none
+}
+
+.card__like-button {
+  font-family: var(--accent-font);
+  font-size: 14px;
+  width: 130px;
+  height: 38px;
+  background-color: transparent;
 }
