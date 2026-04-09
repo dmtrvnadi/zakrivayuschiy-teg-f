@@ -31,7 +31,7 @@
 
 .like-icon:hover .core {
   fill: var(--contour-color);
-  transition-delay: 0s; 
+  transition-delay: 0s;
 }
 
 .like-icon:hover .main-body {
