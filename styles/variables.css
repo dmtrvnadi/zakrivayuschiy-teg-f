@@ -5,7 +5,15 @@
   linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --main-font: "Inter-Variable", sans-serif;
   --accent-font: "PressStart2P", sans-serif;
-  --title-weigth: 710;
+  --title-weight: 715;
   --main-weight: 410;
-  --page-width: clamp(320px, 82.6vw, 1200px);
+  --page-width: clamp(375px, 48.6vw, 1440px);
+  --text-stroke: #fff;
+  --border: 2px solid #000;
+  --floppy-desktop: 21px;
+  --floppy-mobile: 28px;
+  --floppy-dialog: 39px;
+  --text-color: #fff;
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
 }
